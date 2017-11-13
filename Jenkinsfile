@@ -3,7 +3,6 @@ pipeline {
       step ('build') {
          sh mvn clean
       }
-      
       step ('echo') {
          sh echo " bla"
       }
