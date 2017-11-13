@@ -4,7 +4,7 @@ pipeline {
          sh mvn clean
       }
       step ('echo') {
-         sh echo " bla"
+         echo " bla"
       }
    }
 }
